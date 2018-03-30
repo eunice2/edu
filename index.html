@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  
+  <title>media</title>
+ </head>
+ <body>
+  <audio src="old_pop.mp3" autoplay controls> Your browser does not support the audio element.
+  </audio>
+
+  <audio controls autoplay>
+	<source src="old_pop.ogg" type="audio/ogg">
+	<source src="old_pop.mp3" type="audio/mp3">
+	<p>Your browser does not support the audio element.</p>
+</audio>
+
+<video width="640" height="480"controls preload="none">
+<source src="trailer.mp4" type="video/mp4">
+</video>
+
+
+<iframe src="inner.html" widht="300"height="120"></iframe>
+<!-- iframe을 만들어 그속에 inner.html문서가 보여지게된다. 경로 inner문서 따로 작성  -->
+<p><hr/></p>
+
+<iframe src="" name="iframe1"> </iframe>
+  <p> <a href="http://www.duam.net" target="iframe1"> iframe으로 외부링크</a></p>
+  <!-- src=""에서 따옴표 안에 값을 주지 않고 밖에서 링크 주소를 준 것 이경우 사용자가 링크를 클릭해야 페이지를 가져온다  tps://github.com/eunice2/amimem.git  -->
+
+  <hr/>
+
+<div style="border:3px solid red;">
+<h2> 사자</h2>
+<p>사자는 아프리카에 산다. <span style="color:red"> 어금니 </span>
+</p>
+</div>
+
+<p><hr/></p>
+
+
+	<div style="height:20px; backgrund-color:yellow";> </div>
+
+ </body>
+</html>
